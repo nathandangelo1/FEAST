@@ -10,7 +10,7 @@ nav {
   box-sizing: border-box;
 } */
 body {
-  margin: 0;
+  margin: auto;
   padding: 0;
 }
 nav {
@@ -106,10 +106,13 @@ nav a {
 }
 .container .text {
   margin: 0;
-  padding: 10%;
+  padding-left: 1rem;
+  padding-right: 1rem;
   font-size: 26;
 }
-
+.container .text h2 {
+  margin: 0;
+}
 .menu-main {
   margin: 20px;
   padding-left: 20px;
